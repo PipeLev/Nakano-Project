@@ -23,7 +23,7 @@
       personality: "Serena por fuera y siempre la primera en ofrecerse cuando algo sale mal. Ichika carga con una responsabilidad que nadie le pidió, y eso a veces la hace parecer más distante de lo que en realidad es.",
       backstory: "Como la mayor, creció asumiendo que cuidar de sus cuatro hermanas era su trabajo antes que su elección. Sueña con actuar, pero por ahora antepone el bienestar de la familia a sus propios planes.",
       relationships: "Es el punto de referencia para sus hermanas menores, aunque eso no siempre significa que la escuchen. Con Itsuki mantiene una complicidad silenciosa; con Nino, un choque constante de estilos.",
-      quote: "Si alguien tiene que cargar con esto, prefiero que sea yo.",
+      quote: "Fui la primera en conocerte, fui la primera en enamorarme... pero fui la última en decírtelo.",
       trivia: [
         "Aprendió a cocinar viendo programas de televisión a altas horas de la noche.",
         "Guarda una libreta con monólogos que nunca ha mostrado a nadie.",
@@ -37,7 +37,7 @@
       personality: "Directa hasta el punto de sonar cortante, pero increíblemente leal en el momento en que de verdad importa. Nino esconde su cariño detrás de un sarcasmo bien afilado.",
       backstory: "Pasa más tiempo perfeccionando recetas que abriendo un libro de texto. Sueña con tener su propia pastelería algún día, aunque nunca lo diría en voz alta sin quejarse primero.",
       relationships: "Es quien más rápido se pone a la defensiva por sus hermanas, incluso cuando finge que no le importan. Su relación con Ichika suele chispear por diferencias de carácter.",
-      quote: "No es que me importe... es solo que alguien tiene que vigilarte.",
+      quote: "No me importa lo que pienses de mí. Me aseguraré de que te enamores de mí, sin importar qué.",
       trivia: [
         "Memoriza recetas enteras antes que fórmulas de examen.",
         "Guarda en secreto los postres que le salen mal para compartirlos con sus hermanas.",
@@ -51,7 +51,7 @@
       personality: "Callada y observadora, se le dan mejor los gestos que las palabras. Cuando algo le apasiona —sobre todo la historia— es capaz de hablar horas sin darse cuenta.",
       backstory: "Prefiere perderse en estrategias de videojuegos y libros de historia antes que enfrentarse a una conversación incómoda. Detrás de su timidez hay una determinación silenciosa.",
       relationships: "Es la mediadora invisible del grupo: rara vez discute, pero siempre nota cuándo alguna de sus hermanas necesita espacio o compañía.",
-      quote: "Prefiero decir las cosas... aunque sea con las manos temblando.",
+      quote: "Ya no tengo miedo. Si las cinco nos esforzamos juntas, no hay nada que no podamos hacer.",
       trivia: [
         "Clasifica a personajes históricos como si fueran cartas coleccionables.",
         "Tiene un estante entero solo de guías de estrategia.",
@@ -65,7 +65,7 @@
       personality: "Pura energía. Es un desastre con los exámenes, pero la primera en animar a cualquiera que esté teniendo un mal día. No sabe estarse quieta ni cinco minutos.",
       backstory: "Ha probado más clubes deportivos de los que puede recordar y trabaja en turnos parciales para ayudar en casa, aunque eso le reste horas de estudio.",
       relationships: "Es el motor emocional del grupo: cuando alguna hermana se hunde, Yotsuba aparece con una energía imposible de ignorar.",
-      quote: "¡Si me caigo, me levanto corriendo!",
+      quote: "Incluso si no puedo ser especial para ti, siempre estaré a tu lado apoyándote.",
       trivia: [
         "Ha entrado y salido de once clubes deportivos distintos.",
         "No logra sentarse quieta durante un examen completo.",
@@ -79,7 +79,7 @@
       personality: "Madura más allá de su edad, aunque eso también significa que guarda sus propias preocupaciones para no sumarle peso a nadie más.",
       backstory: "Es la mejor estudiante de las cinco, pero esa etiqueta esconde una carga silenciosa sobre el futuro de la familia que casi nunca comparte en voz alta.",
       relationships: "Escucha más de lo que habla, y suele ser la primera en notar cuando algo no anda bien con sus hermanas, aunque no siempre sepa cómo decirlo.",
-      quote: "Está bien no saber todas las respuestas todavía.",
+      quote: "No somos solo estudiantes y profesor. Somos compañeros que caminan hacia el mismo futuro.",
       trivia: [
         "Anota los cumpleaños de todos con un año de anticipación.",
         "Es la única de las cinco que lee manuales de instrucciones por gusto.",
@@ -97,50 +97,50 @@
     T1: {
       label: "Temporada 1", folder: "T1", filePrefix: "cap",
       episodes: [
-        { ep: 1, title: "Cinco escritorios, un examen", syn: "Un tutor recién contratado descubre que motivar a una quintilliza a la vez es imposible cuando las otras cuatro interrumpen." },
-        { ep: 2, title: "Reglas de la casa", syn: "Entre horarios cruzados y una casa ruidosa, el tutor intenta poner orden antes del primer simulacro de examen." },
-        { ep: 3, title: "La receta equivocada", syn: "Un intento de acercarse a través de la cocina termina en un desastre que, sorprendentemente, ayuda a romper el hielo." },
-        { ep: 4, title: "El club que no era", syn: "Una excursión escolar obliga a las hermanas a colaborar en equipo por primera vez en mucho tiempo." },
-        { ep: 5, title: "Notas bajo la manga", syn: "Los primeros resultados de un examen de práctica sacan a la luz viejas inseguridades entre las hermanas." },
-        { ep: 6, title: "Cinco maneras de decir 'gracias'", syn: "Cada hermana encuentra, a su manera, un pequeño gesto de agradecimiento hacia su tutor." },
-        { ep: 7, title: "Examen de mitad de año", syn: "La presión de las calificaciones saca lo mejor y lo peor de cada una de las cinco hermanas." },
-        { ep: 8, title: "El diario compartido", syn: "Un cuaderno olvidado en la sala termina revelando pensamientos que nadie pensaba compartir." },
-        { ep: 9, title: "Un secreto a voces", syn: "Todas sospechan que algo ha cambiado entre el tutor y una de las hermanas, pero nadie lo dice en voz alta." },
-        { ep: 10, title: "La foto que nadie mencionó", syn: "Una fotografía antigua reabre preguntas sobre el pasado de la familia que prefieren no discutir." },
-        { ep: 11, title: "Cuando el tutor casi renuncia", syn: "Un malentendido pone en riesgo la continuidad de las clases, y las cinco deben decidir qué tan importante se ha vuelto." },
-        { ep: 12, title: "Cinco promesas para el verano", syn: "El cierre de la primera temporada deja a cada hermana con una promesa distinta que cumplir." }
+        { ep: 1, title: "Las Quintillizas", syn: "Futaro Uesugi, un estudiante brillante y pobre, es contratado como tutor. Se sorprende al descubrir que sus alumnas son cinco hermanas idénticas: las quintillizas Nakano, quienes odian estudiar." },
+        { ep: 2, title: "Declaración en el tejado", syn: "Futaro intenta ganarse a las hermanas con un examen de prueba. Al descubrir que Miku tiene un interés secreto por la historia, Futaro lo usa para empezar a conectar con ella." },
+        { ep: 3, title: "Un montón de problemas", syn: "Miku comienza a cooperar, pero Nino se opone firmemente al tutor. Se enfrentan en un duelo de cocina para decidir si Futaro puede seguir enseñándoles." },
+        { ep: 4, title: "Día libre", syn: "Tras recibir su primer pago, Futaro lleva a su hermana Raiha a un salón de juegos y se encuentra con las quintillizas, quienes se preparan para un festival de fuegos artificiales." },
+        { ep: 5, title: "Cinco partes para todas", syn: "Durante el festival, las hermanas se separan. Futaro intenta reunirlas a todas para ver los fuegos artificiales, descubriendo los secretos y conflictos personales de cada una." },
+        { ep: 6, title: "Lo que se ha acumulado", syn: "Se acercan los exámenes parciales. El padre de las hermanas amenaza a Futaro con despedirlo si alguna de ellas reprueba, lo que aumenta la presión sobre el grupo." },
+        { ep: 7, title: "Oso, oso, mentiroso", syn: "Debido a una tormenta, Futaro debe pasar la noche en el apartamento de las quintillizas, lo que provoca una serie de malentendidos cómicos y situaciones comprometidas." },
+        { ep: 8, title: "Fotos del comienzo", syn: "Ichika necesita ayuda con su carrera de actriz y comienza a chantajear a Futaro para que intercambie contactos con sus hermanas, acercándolos más que nunca." },
+        { ep: 9, title: "La leyenda del destino - Día 1", syn: "Las hermanas parten a un viaje escolar de campamento. Se dice que si una pareja baila frente a una fogata en la última noche, estarán juntos para siempre." },
+        { ep: 10, title: "La leyenda del destino - Día 2", syn: "La prueba de valor en el campamento causa caos. Las hermanas intentan asegurar su lugar como la pareja de baile de Futaro en medio de confusiones de identidad." },
+        { ep: 11, title: "La leyenda del destino - Día 3", syn: "Futaro y las hermanas terminan atrapados en un cobertizo. Ichika le confiesa un secreto a Futaro mientras los demás empiezan a buscarlos por todo el campamento." },
+        { ep: 12, title: "La leyenda del destino - Día 2000", syn: "Es el último día del campamento. A pesar de los esfuerzos, una de las hermanas desaparece, y el grupo debe unirse para cerrar el viaje escolar con éxito." }
       ]
     },
     T2: {
       label: "Temporada 2", folder: "T2", filePrefix: "cap",
       episodes: [
-        { ep: 1, title: "Un verano de repaso", syn: "Las vacaciones deberían servir para estudiar, pero los planes de las cinco tienen otras ideas." },
-        { ep: 2, title: "El festival del distrito", syn: "Un festival local se convierte en la excusa perfecta para revelar rivalidades y complicidades nuevas." },
-        { ep: 3, title: "Cartas sin enviar", syn: "Una de las hermanas escribe una carta que nunca planea entregar, hasta que las circunstancias la obligan a reconsiderarlo." },
-        { ep: 4, title: "El simulacro decisivo", syn: "La presión de un examen importante pone a prueba cuánto ha cambiado realmente la dinámica familiar." },
-        { ep: 5, title: "Cinco caminos", syn: "Cada hermana empieza a imaginar un futuro distinto, y no todos apuntan en la misma dirección." },
-        { ep: 6, title: "El hilo que las une", syn: "Un cierre agridulce de mitad de temporada recuerda que, pase lo que pase, siguen siendo cinco partes de un mismo lazo." },
-        { ep: 7, title: "Regreso a clases", syn: "El nuevo semestre trae compañeros, presiones y comparaciones que ninguna de las cinco esperaba." },
-        { ep: 8, title: "La rivalidad que no esperaban", syn: "Una competencia escolar pone a dos de las hermanas en bandos opuestos por primera vez." },
-        { ep: 9, title: "Un viaje inesperado", syn: "Un imprevisto familiar obliga a todos a salir de la rutina y a verse bajo una luz distinta." },
-        { ep: 10, title: "La verdad a medias", syn: "Algunas respuestas que llevaban tiempo evitando finalmente salen a la superficie." },
-        { ep: 11, title: "El examen final", syn: "Todo lo aprendido —y lo no aprendido— se pone a prueba en un último examen decisivo." },
-        { ep: 12, title: "Cinco quintillizas, una despedida", syn: "El cierre de temporada reúne a las cinco hermanas para una despedida agridulce que promete no ser la última." }
+        { ep: 1, title: "Enredos y desventuras en Kioto", syn: "Comienza un nuevo semestre. Nino comienza a actuar de forma extraña y las hermanas se enfrentan a nuevos desafíos académicos y personales tras el viaje escolar." },
+        { ep: 2, title: "Siete despedidas (Primera parte)", syn: "El conflicto interno de Nino llega a un punto crítico mientras Futaro intenta entender qué es lo que realmente quieren las hermanas para su futuro." },
+        { ep: 3, title: "Siete despedidas (Segunda parte)", syn: "Nino toma una decisión drástica que cambia su relación con Futaro y sus hermanas, marcando un antes y un después en la dinámica del grupo." },
+        { ep: 4, title: "Siete despedidas (Tercera parte)", syn: "Las quintillizas comienzan a buscar empleos a tiempo parcial para aprender sobre el valor del dinero y la independencia, complicando sus sesiones de estudio." },
+        { ep: 5, title: "Muy buen trabajo", syn: "Llegan los exámenes finales. Futaro se esfuerza al máximo para ayudar a todas las hermanas a aprobar, enfrentando el desafío de sus distintos niveles de aprendizaje." },
+        { ep: 6, title: "El último examen", syn: "La presión aumenta. Las hermanas deben superar sus miedos y las barreras académicas para demostrarle a su padre que pueden ser autónomas y mejorar." },
+        { ep: 7, title: "Comienza la ofensiva", syn: "Un malentendido sobre quién es quién genera situaciones incómodas, obligando a las hermanas a enfrentar sus sentimientos honestos por Futaro." },
+        { ep: 8, title: "Huevos revueltos", syn: "Las chicas deciden intercambiarse los roles para confundir a Futaro, lo que resulta en revelaciones inesperadas sobre sus personalidades únicas." },
+        { ep: 9, title: "Bienvenidos a la clase 3-1", syn: "Las hermanas comienzan su tercer año de preparatoria y los sentimientos románticos hacia Futaro se vuelven mucho más evidentes y competitivos." },
+        { ep: 10, title: "Las cinco grullas devuelven el favor", syn: "La competencia entre las hermanas por ganar el afecto de Futaro se intensifica, mientras cada una intenta encontrar su propia manera de acercarse a él." },
+        { ep: 11, title: "Guerra de hermanas (Primera Parte)", syn: "Ichika intenta tomar una ventaja competitiva, lo que provoca tensiones graves con Miku y cuestiona la lealtad dentro del grupo de las cinco hermanas." },
+        { ep: 12, title: "Guerra de hermanas (Segunda Parte)", syn: "La temporada cierra con un evento importante donde se consolidan los sentimientos de las quintillizas y se prepara el terreno para la conclusión de su historia." }
       ]
     },
     OVAS: {
       label: "OVAs", folder: "OVAS", filePrefix: "ova",
       episodes: [
-        { ep: 1, title: "Un día sin agenda", syn: "Las hermanas intentan pasar un día entero sin hablar de estudios, con resultados poco previsibles." },
-        { ep: 2, title: "El álbum olvidado", syn: "Un álbum de fotos familiar despierta anécdotas que cada hermana recuerda de forma distinta." },
-        { ep: 3, title: "Nieve inesperada", syn: "Una nevada fuera de temporada deja a todos atrapados en casa durante una tarde entera." },
-        { ep: 4, title: "Antes del examen final", syn: "Una mirada íntima a los nervios de cada hermana la noche antes de un examen decisivo." }
+        { ep: 1, title: "Unas vacaciones de verano inesperadas (Parte 1)»", syn: "Se centra principalmente en los intentos de las hermanas por atraer la atención de Futaro durante las vacaciones y las complicaciones de estudiar juntos fuera del entorno escolar habitual." },
+        { ep: 2, title: "Unas vacaciones de verano inesperadas (Parte 2)", syn: "Explora dinámicas más íntimas de las hermanas, mostrando cómo cada una de ellas intenta superar sus inseguridades personales mientras intentan equilibrar el estudio con su vida cotidiana." },
+        { ep: 3, title: "El incidente de las quintillizas", syn: "Tras celebrar su matrimonio, Futaro y las quintillizas se preparan para su esperado viaje de luna de miel a Okinawa. Durante el trayecto y la llegada al resort, el grupo se enfrenta a la realidad de su nueva dinámica. Mientras intentan disfrutar de las actividades turísticas y los hermosos paisajes, la presencia constante de las cinco hermanas genera situaciones divertidas y malentendidos, obligando a Futaro a aprender a equilibrar su tiempo con su pareja y las necesidades de las otras hermanas que también los acompañan." },
+        { ep: 4, title: "La gran misión de las quintillizas", syn: "En la conclusión del viaje, la tensión emocional aumenta cuando las hermanas se ven obligadas a reflexionar sobre sus vidas individuales después de la graduación y cómo su relación con Futaro ha moldeado a cada una de ellas. El episodio se centra en momentos de introspección y conversaciones sinceras que cierran los arcos de crecimiento personal de cada quintilliza, culminando en una despedida nostálgica que reafirma el vínculo inquebrantable que formaron desde que eran estudiantes" }
       ]
     },
     PELICULA: {
       label: "Película", folder: "Pelicula", filePrefix: "pelicula", isMovie: true,
       episodes: [
-        { ep: 1, title: "El hilo hacia el futuro", syn: "Años después de los eventos de la serie, un reencuentro obliga a las cinco hermanas —y a su antiguo tutor— a enfrentar preguntas que dejaron pendientes." }
+        { ep: 1, title: "The Quintessential Quintuplets: La película", syn: "Futaro Uesugi es un estudiante de preparatoria brillante, pero con una vida solitaria y llena de dificultades económicas. Su suerte cambia cuando es contratado como tutor privado para las cinco hermanas Nakano, unas quintillizas idénticas que, a pesar de su gran belleza, están al borde de la reprobación académica y odian estudiar. Lo que comienza como un trabajo de medio tiempo se convierte en un complejo viaje emocional, donde Futaro debe ganarse la confianza de las hermanas mientras intenta guiarlas hacia la graduación. Sin embargo, conforme los lazos se estrechan, surge una pregunta inevitable: entre cinco personalidades tan distintas, ¿quién será la que logre capturar el corazón de Futaro?" }
       ]
     }
   };

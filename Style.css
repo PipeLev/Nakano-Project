@@ -10,11 +10,11 @@
 --c-ink-soft:  #6B6178;
 --c-hairline:  #EAE1D6;
 
-  --c-ichika:    #D6334A;   /* eldest — deep red thread   */
-  --c-nino:      #F0A500;   /* second — golden thread     */
-  --c-miku:      #1F9DA6;   /* middle — teal thread       */
-  --c-yotsuba:   #57B85A;   /* fourth — green thread      */
-  --c-itsuki:    #B27FE0;   /* youngest — lavender thread */
+  --c-ichika:    #FDDA24;   /* eldest — deep red thread   */
+  --c-nino:      #8A2BE2;   /* second — golden thread     */
+  --c-miku:      #00BFFF;   /* middle — teal thread       */
+  --c-yotsuba:   #228B22;   /* fourth — green thread      */
+  --c-itsuki:    #FF0000;   /* youngest — lavender thread */
 
   --grad-braid: conic-gradient(from 0deg,
       var(--c-ichika), var(--c-nino), var(--c-miku),
