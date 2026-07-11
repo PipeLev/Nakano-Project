@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Galería de imágenes de Gotoubun no Hanayome. Filtra por personaje y disfruta de las mejores capturas.">
+  <meta name="theme-color" content="#f2a0b5">
+  <title>Galería · The Nakano Archives</title>
+  <link rel="stylesheet" href="../assets/css/variables.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="stylesheet" href="../assets/css/navbar.css">
+  <link rel="stylesheet" href="../assets/css/galeria.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/icons/favicon.svg">
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <img src="../assets/img/logo/logo.png" alt="The Nakano Archives Logo" class="logo-img" width="48" height="48">
+        <span class="site-title">The Nakano Archives</span>
+      </div>
+      <button class="hamburger-btn" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <nav class="primary-nav" role="navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="personajes.html" class="nav-link">Personajes</a></li>
+          <li class="nav-item"><a href="galeria.html" class="nav-link active" aria-current="page">Galería</a></li>
+          <li class="nav-item"><a href="musica.html" class="nav-link">Música</a></li>
+          <li class="nav-item"><a href="curiosidades.html" class="nav-link">Curiosidades</a></li>
+          <li class="nav-item"><a href="acerca.html" class="nav-link">Acerca</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="galeria-page-section">
+      <div class="container">
+        <div class="page-header">
+          <span class="section-label">Galería</span>
+          <h1>Colección de imágenes</h1>
+          <p class="page-description">Explora la galería completa. Filtra por tu quintilliza favorita.</p>
+        </div>
+
+        <div class="gallery-filters">
+          <button class="filter-btn active" data-filter="all">Todas</button>
+          <button class="filter-btn" data-filter="ichika">Ichika</button>
+          <button class="filter-btn" data-filter="nino">Nino</button>
+          <button class="filter-btn" data-filter="miku">Miku</button>
+          <button class="filter-btn" data-filter="yotsuba">Yotsuba</button>
+          <button class="filter-btn" data-filter="itsuki">Itsuki</button>
+        </div>
+
+        <div class="gallery-masonry" id="galleryGrid">
+          <div class="gallery-item" data-category="ichika">
+            <img src="../assets/img/personajes/ichika/thumb1.jpg" alt="Ichika Nakano galería 1" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="ichika">
+            <img src="../assets/img/personajes/ichika/thumb2.jpg" alt="Ichika Nakano galería 2" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="ichika">
+            <img src="../assets/img/personajes/ichika/thumb3.jpg" alt="Ichika Nakano galería 3" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="ichika">
+            <img src="../assets/img/personajes/ichika/thumb4.jpg" alt="Ichika Nakano galería 4" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="nino">
+            <img src="../assets/img/personajes/nino/thumb1.jpg" alt="Nino Nakano galería 1" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="nino">
+            <img src="../assets/img/personajes/nino/thumb2.jpg" alt="Nino Nakano galería 2" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="nino">
+            <img src="../assets/img/personajes/nino/thumb3.jpg" alt="Nino Nakano galería 3" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="nino">
+            <img src="../assets/img/personajes/nino/thumb4.jpg" alt="Nino Nakano galería 4" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="miku">
+            <img src="../assets/img/personajes/miku/thumb1.jpg" alt="Miku Nakano galería 1" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="miku">
+            <img src="../assets/img/personajes/miku/thumb2.jpg" alt="Miku Nakano galería 2" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="miku">
+            <img src="../assets/img/personajes/miku/thumb3.jpg" alt="Miku Nakano galería 3" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="miku">
+            <img src="../assets/img/personajes/miku/thumb4.jpg" alt="Miku Nakano galería 4" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="yotsuba">
+            <img src="../assets/img/personajes/yotsuba/thumb1.jpg" alt="Yotsuba Nakano galería 1" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="yotsuba">
+            <img src="../assets/img/personajes/yotsuba/thumb2.jpg" alt="Yotsuba Nakano galería 2" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="yotsuba">
+            <img src="../assets/img/personajes/yotsuba/thumb3.jpg" alt="Yotsuba Nakano galería 3" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="yotsuba">
+            <img src="../assets/img/personajes/yotsuba/thumb4.jpg" alt="Yotsuba Nakano galería 4" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="itsuki">
+            <img src="../assets/img/personajes/itsuki/thumb1.jpg" alt="Itsuki Nakano galería 1" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="itsuki">
+            <img src="../assets/img/personajes/itsuki/thumb2.jpg" alt="Itsuki Nakano galería 2" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="itsuki">
+            <img src="../assets/img/personajes/itsuki/thumb3.jpg" alt="Itsuki Nakano galería 3" loading="lazy">
+          </div>
+          <div class="gallery-item" data-category="itsuki">
+            <img src="../assets/img/personajes/itsuki/thumb4.jpg" alt="Itsuki Nakano galería 4" loading="lazy">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+      <button class="lightbox-close-btn" aria-label="Cerrar lightbox">&times;</button>
+      <img src="" alt="" class="lightbox-image" id="lightboxImage">
+    </div>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="../assets/img/logo/logo.png" alt="Logo" class="footer-logo" width="36" height="36">
+        <span class="footer-title">The Nakano Archives</span>
+      </div>
+      <div class="footer-info">
+        <p>&copy; 2026 The Nakano Archives — Proyecto fan sin fines de lucro.</p>
+        <p class="footer-disclaimer">Gotoubun no Hanayome © Negi Haruba / Kodansha.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+          <img src="../assets/img/icons/github.svg" alt="GitHub" width="22" height="22">
+        </a>
+        <a href="#" class="footer-social-link" aria-label="Twitter">
+          <img src="../assets/img/icons/twitter.svg" alt="Twitter" width="22" height="22">
+        </a>
+        <a href="acerca.html" class="footer-page-link">Créditos</a>
+      </div>
+      <p class="footer-version">v1.0.0 — Hecho con 🌸</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" type="module"></script>
+  <script src="../assets/js/navigation.js" type="module"></script>
+  <script src="../assets/js/galeria.js" type="module"></script>
+</body>
+</html>

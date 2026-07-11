@@ -1,0 +1,163 @@
+/* ========== FOOTER ========== */
+.main-footer {
+  background: var(--bg-footer);
+  color: var(--text-on-dark);
+  padding: var(--space-xl) 0;
+  margin-top: auto;
+}
+
+.footer-container {
+  max-width: var(--container-max);
+  margin: 0 auto;
+  padding: 0 var(--container-padding);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: var(--space-lg);
+  flex-wrap: wrap;
+}
+
+/* ========== IZQUIERDA: LOGO + NOMBRE ========== */
+.footer-brand {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+
+.footer-logo {
+  width: 68px;
+  height: 68px;
+  border-radius: 50%;
+  object-fit: contain;
+  border: none;
+  background: none;
+  box-shadow: none;
+  padding: 0;
+  opacity: 1;
+  transition: transform 0.35s cubic-bezier(0.68, -0.55, 0.265, 1.55);
+}
+
+.footer-brand:hover .footer-logo {
+  transform: scale(1.05);
+}
+
+.footer-title {
+  font-weight: 700;
+  font-size: var(--text-lg);
+  color: var(--text-on-dark);
+  white-space: nowrap;
+}
+
+/* ========== CENTRO: INFO ========== */
+.footer-info {
+  flex: 1;
+  min-width: 200px;
+}
+
+.footer-info p {
+  font-size: var(--text-sm);
+  color: var(--text-on-dark-secondary);
+  margin-bottom: 4px;
+  line-height: 1.5;
+}
+
+.footer-info p:last-child {
+  margin-bottom: 0;
+}
+
+.footer-disclaimer {
+  font-size: var(--text-xs) !important;
+  opacity: 0.6;
+}
+
+/* ========== DERECHA: ENLACES ========== */
+.footer-links {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  flex-shrink: 0;
+}
+
+.footer-social-link {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 38px;
+  height: 38px;
+  border-radius: 50%;
+  background: rgba(255, 255, 255, 0.08);
+  transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s ease;
+}
+
+.footer-social-link:hover {
+  background: rgba(255, 255, 255, 0.16);
+  transform: scale(1.05);
+}
+
+.footer-social-link img {
+  opacity: 0.85;
+  transition: opacity 0.3s ease;
+}
+
+.footer-social-link:hover img {
+  opacity: 1;
+}
+
+.footer-page-link {
+  font-size: var(--text-sm);
+  font-weight: 500;
+  color: var(--text-on-dark-secondary);
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.footer-page-link:hover {
+  color: var(--color-primary);
+  transform: scale(1.05);
+}
+
+/* ========== VERSIÓN ========== */
+.footer-version {
+  width: 100%;
+  text-align: center;
+  margin-top: var(--space-md);
+  padding-top: var(--space-md);
+  border-top: 1px solid rgba(255, 255, 255, 0.08);
+  font-size: var(--text-xs);
+  color: var(--text-on-dark-secondary);
+  opacity: 0.5;
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: var(--space-md);
+  }
+
+  .footer-brand {
+    order: 1;
+  }
+
+  .footer-logo {
+    width: 56px;
+    height: 56px;
+  }
+
+  .footer-info {
+    order: 2;
+    text-align: center;
+    min-width: unset;
+  }
+
+  .footer-links {
+    order: 3;
+    justify-content: center;
+  }
+
+  .footer-version {
+    order: 4;
+  }
+}

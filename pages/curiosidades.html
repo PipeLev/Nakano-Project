@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="Curiosidades y datos interesantes sobre Gotoubun no Hanayome que todo fan debería conocer.">
+  <meta name="theme-color" content="#f2a0b5">
+  <title>Curiosidades · The Nakano Archives</title>
+  <link rel="stylesheet" href="../assets/css/variables.css">
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/header.css">
+  <link rel="stylesheet" href="../assets/css/navbar.css">
+  <link rel="stylesheet" href="../assets/css/curiosidades.css">
+  <link rel="stylesheet" href="../assets/css/footer.css">
+  <link rel="stylesheet" href="../assets/css/animations.css">
+  <link rel="stylesheet" href="../assets/css/responsive.css">
+  <link rel="icon" type="image/svg+xml" href="../assets/img/icons/favicon.svg">
+</head>
+<body>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <img src="../assets/img/logo/logo.png" alt="The Nakano Archives Logo" class="logo-img" width="48" height="48">
+        <span class="site-title">The Nakano Archives</span>
+      </div>
+      <button class="hamburger-btn" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <nav class="primary-nav" role="navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="../index.html" class="nav-link">Inicio</a></li>
+          <li class="nav-item"><a href="personajes.html" class="nav-link">Personajes</a></li>
+          <li class="nav-item"><a href="galeria.html" class="nav-link">Galería</a></li>
+          <li class="nav-item"><a href="musica.html" class="nav-link">Música</a></li>
+          <li class="nav-item"><a href="curiosidades.html" class="nav-link active" aria-current="page">Curiosidades</a></li>
+          <li class="nav-item"><a href="acerca.html" class="nav-link">Acerca</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <section class="curiosidades-page-section">
+      <div class="container">
+        <div class="page-header">
+          <span class="section-label">Curiosidades</span>
+          <h1>¿Sabías que...?</h1>
+          <p class="page-description">Datos fascinantes y secretos sobre Gotoubun no Hanayome.</p>
+        </div>
+
+        <div class="search-wrapper">
+          <input type="text" id="curiosidadesSearch" class="search-input" placeholder="Buscar curiosidad...">
+        </div>
+
+        <div class="category-filters">
+          <button class="filter-btn active" data-category="all">Todas</button>
+          <button class="filter-btn" data-category="manga">Manga</button>
+          <button class="filter-btn" data-category="anime">Anime</button>
+          <button class="filter-btn" data-category="personajes">Personajes</button>
+          <button class="filter-btn" data-category="produccion">Producción</button>
+        </div>
+
+        <div class="curiosidades-grid" id="curiosidadesGrid">
+          <article class="curiosidad-card" data-category="manga">
+            <div class="curiosidad-icon-wrapper">📚</div>
+            <h3>El apartamento 501</h3>
+            <p>El número del apartamento de las quintillizas es el 501. En japonés se lee "go-tou-ichi", un juego de palabras con "Gotoubun" que significa quintillizas.</p>
+            <span class="category-tag">Manga</span>
+          </article>
+          <article class="curiosidad-card" data-category="anime">
+            <div class="curiosidad-icon-wrapper">🎬</div>
+            <h3>Seiyuus cantantes</h3>
+            <p>Las cinco actrices de voz grabaron juntas los openings como un grupo real, igual que sus personajes en la historia.</p>
+            <span class="category-tag">Anime</span>
+          </article>
+          <article class="curiosidad-card" data-category="personajes">
+            <div class="curiosidad-icon-wrapper">🌸</div>
+            <h3>Colores distintivos</h3>
+            <p>Cada quintilliza tiene un color característico que se refleja en su cabello, accesorios y hasta en los subtítulos del anime.</p>
+            <span class="category-tag">Personajes</span>
+          </article>
+          <article class="curiosidad-card" data-category="produccion">
+            <div class="curiosidad-icon-wrapper">✏️</div>
+            <h3>Final planeado</h3>
+            <p>Negi Haruba, el autor, planeó el final de la historia desde el primer capítulo y nunca lo cambió a pesar del éxito masivo.</p>
+            <span class="category-tag">Producción</span>
+          </article>
+          <article class="curiosidad-card" data-category="manga">
+            <div class="curiosidad-icon-wrapper">📖</div>
+            <h3>14 volúmenes exactos</h3>
+            <p>La historia se publicó en exactamente 14 volúmenes, completando una narrativa perfectamente estructurada de principio a fin.</p>
+            <span class="category-tag">Manga</span>
+          </article>
+          <article class="curiosidad-card" data-category="anime">
+            <div class="curiosidad-icon-wrapper">🎵</div>
+            <h3>La película final</h3>
+            <p>La conclusión de la historia se adaptó como película en lugar de una tercera temporada, estrenándose en cines de todo el mundo en 2022.</p>
+            <span class="category-tag">Anime</span>
+          </article>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="../assets/img/logo/logo.png" alt="Logo" class="footer-logo" width="36" height="36">
+        <span class="footer-title">The Nakano Archives</span>
+      </div>
+      <div class="footer-info">
+        <p>&copy; 2026 The Nakano Archives — Proyecto fan sin fines de lucro.</p>
+        <p class="footer-disclaimer">Gotoubun no Hanayome © Negi Haruba / Kodansha.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+          <img src="../assets/img/icons/github.svg" alt="GitHub" width="22" height="22">
+        </a>
+        <a href="#" class="footer-social-link" aria-label="Twitter">
+          <img src="../assets/img/icons/twitter.svg" alt="Twitter" width="22" height="22">
+        </a>
+        <a href="acerca.html" class="footer-page-link">Créditos</a>
+      </div>
+      <p class="footer-version">v1.0.0 — Hecho con 🌸</p>
+    </div>
+  </footer>
+
+  <script src="../assets/js/main.js" type="module"></script>
+  <script src="../assets/js/navigation.js" type="module"></script>
+  <script src="../assets/js/curiosidades.js" type="module"></script>
+</body>
+</html>

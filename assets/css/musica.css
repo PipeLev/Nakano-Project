@@ -1,0 +1,127 @@
+/* ========== PÁGINA MÚSICA ========== */
+.musica-page-section {
+  padding: var(--space-4xl) 0 var(--space-5xl);
+}
+
+/* ========== CATEGORÍA ========== */
+.musica-category {
+  margin-bottom: var(--space-5xl);
+}
+
+.musica-category:last-child {
+  margin-bottom: 0;
+}
+
+.category-title {
+  font-size: var(--text-2xl);
+  font-weight: 700;
+  margin-bottom: var(--space-xl);
+  padding-bottom: var(--space-sm);
+  border-bottom: 3px solid var(--color-primary-lighter);
+  display: inline-block;
+}
+
+/* ========== CANCIONES GRID ========== */
+.canciones-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(380px, 1fr));
+  gap: var(--space-xl);
+}
+
+/* ========== CANCIÓN CARD ========== */
+.cancion-card {
+  background: var(--bg-surface);
+  border-radius: var(--radius-2xl);
+  overflow: hidden;
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  display: flex;
+  flex-direction: row;
+}
+
+.cancion-card:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--shadow-lg);
+}
+
+.cancion-thumb {
+  flex-shrink: 0;
+  width: 140px;
+  height: auto;
+  overflow: hidden;
+}
+
+.cancion-thumb img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: transform var(--transition-slower);
+}
+
+.cancion-card:hover .cancion-thumb img {
+  transform: scale(1.06);
+}
+
+.cancion-info {
+  padding: var(--space-lg);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+}
+
+.cancion-type {
+  display: inline-block;
+  font-size: var(--text-2xs);
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.12em;
+  color: var(--color-primary-dark);
+  background: var(--color-primary-lighter);
+  padding: 0.2rem 0.7rem;
+  border-radius: var(--radius-full);
+  margin-bottom: var(--space-sm);
+  align-self: flex-start;
+}
+
+.cancion-info h3 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin-bottom: var(--space-sm);
+}
+
+.cancion-info p {
+  font-size: var(--text-sm);
+  color: var(--text-secondary);
+  line-height: 1.6;
+  flex: 1;
+}
+
+.cancion-meta {
+  display: flex;
+  gap: var(--space-md);
+  margin: var(--space-md) 0;
+  font-size: var(--text-xs);
+  color: var(--text-muted);
+}
+
+.cancion-meta span {
+  display: flex;
+  align-items: center;
+  gap: var(--space-2xs);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 768px) {
+  .canciones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cancion-card {
+    flex-direction: column;
+  }
+
+  .cancion-thumb {
+    width: 100%;
+    height: 180px;
+  }
+}

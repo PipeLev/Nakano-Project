@@ -1,0 +1,222 @@
+/* ========== TABLETS ========== */
+@media (max-width: 1024px) {
+  :root {
+    --container-padding: 1.25rem;
+  }
+
+  .section-heading {
+    font-size: var(--text-3xl);
+  }
+
+  .personajes-grid {
+    gap: var(--space-md);
+  }
+}
+
+/* ========== MÓVILES GRANDES ========== */
+@media (max-width: 768px) {
+  :root {
+    --container-padding: 1rem;
+    --header-height: var(--header-height-mobile);
+  }
+
+  html {
+    font-size: 15px;
+  }
+
+  h1 { font-size: var(--text-3xl); }
+  h2 { font-size: var(--text-2xl); }
+
+  .section-heading {
+    font-size: var(--text-2xl);
+  }
+
+  .page-header {
+    padding-top: var(--space-xl);
+    margin-bottom: var(--space-2xl);
+  }
+
+  .btn {
+    padding: 0.7rem 1.5rem;
+    font-size: var(--text-sm);
+  }
+
+  .hero-actions {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .hero-actions .btn {
+    width: 100%;
+    max-width: 320px;
+  }
+
+  .sinopsis-stats {
+    gap: var(--space-lg);
+  }
+
+  .stat-number {
+    font-size: var(--text-3xl);
+  }
+
+  .personajes-grid {
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: var(--space-md);
+  }
+
+  .card-body {
+    padding: var(--space-sm) var(--space-md) var(--space-md);
+  }
+
+  .card-name {
+    font-size: var(--text-base);
+  }
+
+  .galeria-preview-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .musica-preview-text {
+    font-size: var(--text-base);
+  }
+
+  .gallery-filters .filter-btn {
+    padding: 0.45rem 1rem;
+    font-size: var(--text-xs);
+  }
+
+  .category-filters .filter-btn {
+    padding: 0.45rem 1rem;
+    font-size: var(--text-xs);
+  }
+
+  .canciones-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .cancion-card {
+    flex-direction: column;
+  }
+
+  .cancion-thumb {
+    width: 100%;
+    height: 180px;
+  }
+
+  .gallery-masonry {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-sm);
+  }
+
+  .gallery-item img {
+    height: 200px;
+  }
+
+  .curiosidades-grid {
+    grid-template-columns: 1fr;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+
+  .footer-container {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .footer-info {
+    text-align: center;
+  }
+
+  .footer-links {
+    justify-content: center;
+  }
+}
+
+/* ========== MÓVILES PEQUEÑOS ========== */
+@media (max-width: 480px) {
+  :root {
+    --container-padding: 0.875rem;
+  }
+
+  html {
+    font-size: 14px;
+  }
+
+  h1 { font-size: var(--text-2xl); }
+
+  .section-heading {
+    font-size: var(--text-xl);
+  }
+
+  .hero-section {
+    min-height: 75vh;
+  }
+
+  .personajes-grid {
+    grid-template-columns: repeat(2, 1fr);
+    gap: var(--space-sm);
+  }
+
+  .galeria-preview-grid {
+    gap: var(--space-xs);
+  }
+
+  .galeria-preview-item img {
+    height: 140px;
+  }
+
+  .curiosidad-highlight {
+    padding: var(--space-lg);
+  }
+
+  .curiosidad-quote p {
+    font-size: var(--text-base);
+  }
+
+  .footer-container {
+    gap: var(--space-md);
+  }
+
+  .gallery-item img {
+    height: 160px;
+  }
+
+  .personaje-profile,
+  .personaje-profile.reverse {
+    grid-template-columns: 1fr;
+  }
+
+  .personaje-profile.reverse .profile-image-area {
+    order: -1;
+  }
+
+  .profile-image-area {
+    min-height: 350px;
+    max-height: 400px;
+  }
+
+  .profile-info-area {
+    padding: var(--space-xl);
+  }
+
+  .profile-details {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-gallery-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .modal-gallery-grid img {
+    height: 250px;
+  }
+
+  .acerca-card {
+    padding: var(--space-lg);
+  }
+
+  .acerca-card h2 {
+    font-size: var(--text-lg);
+  }
+}

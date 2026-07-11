@@ -1,266 +1,222 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Las Quintillizas — Sitio de Fans</title>
-<meta name="description" content="Sitio no oficial de fans dedicado a Las Quintillizas: personajes, episodios, galería y música.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,400;0,9..144,600;0,9..144,700;1,9..144,500&family=Zen+Maru+Gothic:wght@400;500;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="Style.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta name="description" content="The Nakano Archives - Archivo definitivo de Gotoubun no Hanayome. Información, personajes, galería, música y curiosidades.">
+  <meta name="theme-color" content="#f2a0b5">
+  <title>The Nakano Archives 🌸 Gotoubun no Hanayome</title>
+  <link rel="stylesheet" href="assets/css/variables.css">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/header.css">
+  <link rel="stylesheet" href="assets/css/navbar.css">
+  <link rel="stylesheet" href="assets/css/home.css">
+  <link rel="stylesheet" href="assets/css/footer.css">
+  <link rel="stylesheet" href="assets/css/animations.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="icon" type="image/svg+xml" href="assets/img/icons/favicon.svg">
 </head>
 <body>
-
-<!-- ============ SKIP LINK (a11y) ============ -->
-<a class="skip-link" href="#main">Saltar al contenido</a>
-
-<!-- ============ HEADER / NAV ============ -->
-<header class="site-header" id="siteHeader">
-  <div class="header-inner">
-    <a href="#home" class="brand">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 40 40" width="34" height="34">
-          <circle cx="8" cy="20" r="4" fill="var(--c-ichika)"/>
-          <circle cx="16" cy="10" r="4" fill="var(--c-nino)"/>
-          <circle cx="20" cy="24" r="4.6" fill="var(--c-miku)"/>
-          <circle cx="26" cy="9" r="4" fill="var(--c-yotsuba)"/>
-          <circle cx="33" cy="21" r="4" fill="var(--c-itsuki)"/>
-        </svg>
-      </span>
-      <span class="brand-text">Las Quintillizas</span>
-    </a>
-
-    <nav class="main-nav" id="mainNav" aria-label="Navegación principal">
-      <a href="#home" class="nav-link active-link">Inicio</a>
-      <a href="#characters" class="nav-link">Personajes</a>
-      <a href="#episodes" class="nav-link">Episodios</a>
-      <a href="#gallery" class="nav-link">Galería</a>
-      <a href="#music" class="nav-link">Música</a>
-    </nav>
-
-    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav" aria-label="Abrir menú">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-  <div class="thread-underline" aria-hidden="true"></div>
-</header>
-
-<main id="main">
-
-<!-- ============ HERO / HOME ============ -->
-<section id="home" class="hero">
-  <div class="hero-braid" aria-hidden="true">
-    <svg viewBox="0 0 1200 400" preserveAspectRatio="none" class="braid-svg">
-      <path class="braid-strand strand-ichika" d="M0,80 C 200,180 300,-20 500,80 S 800,220 1000,80 S 1100,180 1200,80" />
-      <path class="braid-strand strand-nino" d="M0,140 C 200,240 300,40 500,140 S 800,280 1000,140 S 1100,240 1200,140" />
-      <path class="braid-strand strand-miku" d="M0,200 C 200,300 300,100 500,200 S 800,340 1000,200 S 1100,300 1200,200" />
-      <path class="braid-strand strand-yotsuba" d="M0,260 C 200,360 300,160 500,260 S 800,400 1000,260 S 1100,360 1200,260" />
-      <path class="braid-strand strand-itsuki" d="M0,320 C 200,420 300,220 500,320 S 800,460 1000,320 S 1100,420 1200,320" />
-    </svg>
-  </div>
-
-  <div class="hero-content">
-    <p class="eyebrow">un sitio de fans — no oficial</p>
-    <h1 class="hero-title">Cinco Hermanas,<br><em>Y un Tutor.</em></h1>
-    <p class="hero-copy">
-      The Quintessential Quintuplets es una comedia romántica que sigue a Futaro Uesugi, un estudiante sobresaliente pero con dificultades económicas, quien acepta un trabajo como tutor privado para las hermanas Nakano: cinco quintillizas idénticas con personalidades únicas pero un rechazo común por el estudio. La trama explora el crecimiento académico y personal de las hermanas mientras Futaro intenta ganarse su confianza, todo bajo el misterio central de quién de ellas se convertirá eventualmente en su esposa.
-    </p>
-    <div class="hero-actions">
-      <a href="#characters" class="btn btn-primary">Conocer a las hermanas</a>
-      <a href="#episodes" class="btn btn-ghost">Ver episodios</a>
+  <header class="main-header">
+    <div class="header-container">
+      <div class="logo-area">
+        <img src="assets/img/logo/logo.png" alt="The Nakano Archives Logo" class="logo-img" width="75" height="75">
+        <span class="site-title">The Nakano Archives</span>
+      </div>
+      <button class="hamburger-btn" aria-label="Abrir menú de navegación" aria-expanded="false">
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+        <span class="hamburger-line"></span>
+      </button>
+      <nav class="primary-nav" role="navigation">
+        <ul class="nav-menu">
+          <li class="nav-item"><a href="index.html" class="nav-link active" aria-current="page">Inicio</a></li>
+          <li class="nav-item"><a href="pages/personajes.html" class="nav-link">Personajes</a></li>
+          <li class="nav-item"><a href="pages/galeria.html" class="nav-link">Galería</a></li>
+          <li class="nav-item"><a href="pages/musica.html" class="nav-link">Música</a></li>
+          <li class="nav-item"><a href="pages/curiosidades.html" class="nav-link">Curiosidades</a></li>
+          <li class="nav-item"><a href="pages/acerca.html" class="nav-link">Acerca</a></li>
+        </ul>
+      </nav>
     </div>
+  </header>
 
-    <ul class="hero-stats" aria-label="Datos rápidos de la serie">
-      <li><span class="stat-num">5</span><span class="stat-label">Hermanas</span></li>
-      <li><span class="stat-num">2</span><span class="stat-label">Temporadas</span></li>
-      <li><span class="stat-num">1</span><span class="stat-label">Pelicula</span></li>
-      <li><span class="stat-num">4</span><span class="stat-label">OVAs</span></li>
-    </ul>
-  </div>
-
-  <div class="hero-portraits" aria-hidden="true">
-    <div class="portrait-orb orb-ichika" style="--i:0"><span>一</span></div>
-    <div class="portrait-orb orb-nino" style="--i:1"><span>二</span></div>
-    <div class="portrait-orb orb-miku" style="--i:2"><span>三</span></div>
-    <div class="portrait-orb orb-yotsuba" style="--i:3"><span>四</span></div>
-    <div class="portrait-orb orb-itsuki" style="--i:4"><span>五</span></div>
-  </div>
-</section>
-
-<!-- ============ CHARACTERS ============ -->
-<section id="characters" class="section characters-section">
-  <div class="section-head">
-    <p class="eyebrow">reparto</p>
-    <h2>Sección de Personajes</h2>
-    <p class="section-copy">Cinco hermanas, cinco colores, cinco formas de querer. Elige una Quintilliza para abrir su perfil completo.</p>
-  </div>
-
-  <div class="char-tabs" id="charTabs" role="tablist" aria-label="Seleccionar personaje">
-    <!-- populated by JS -->
-  </div>
-
-  <article class="char-panel" id="charPanel">
-    <!-- populated by JS -->
-  </article>
-</section>
-
-<!-- ============ EPISODE PLAYER ============ -->
-<section id="episodes" class="section episodes-section">
-  <div class="section-head">
-    <p class="eyebrow">maratón</p>
-    <h2>Reproductor de Capítulos</h2>
-    <p class="section-copy">Selecciona temporada, capítulo e idioma. Los videos se cargan desde la carpeta /videos.</p>
-  </div>
-
-  <div class="player-layout">
-    <aside class="episode-list-wrap">
-      <div class="season-tabs" id="seasonTabs" role="tablist" aria-label="Seleccionar temporada"></div>
-      <ol class="episode-list" id="episodeList" aria-label="Lista de episodios"></ol>
-    </aside>
-
-    <div class="player-main">
-      <div class="player-toolbar">
-        <div class="lang-toggle" id="langToggle" role="tablist" aria-label="Seleccionar idioma">
-          <!-- populated by JS -->
+  <main>
+    <section class="hero-section">
+      <div class="hero-background"></div>
+      <div class="hero-content">
+        <span class="hero-badge">🌸 Fan Project</span>
+        <h1 class="hero-title">Gotoubun no<br>Hanayome</h1>
+        <p class="hero-description">El archivo definitivo dedicado a las quintillizas Nakano. Una celebración visual para los fans de The Quintessential Quintuplets.</p>
+        <div class="hero-actions">
+          <a href="pages/personajes.html" class="btn btn-primary">Conoce a las quintillizas</a>
+          <a href="pages/galeria.html" class="btn btn-outline">Ver galería</a>
         </div>
       </div>
+    </section>
 
-      <div class="video-stage" id="videoStage">
-        <video id="videoEl" class="video-el is-hidden" preload="metadata" playsinline></video>
-        <div class="video-placeholder" id="videoPlaceholder">
-          <svg viewBox="0 0 64 64" width="56" height="56" aria-hidden="true">
-            <circle cx="32" cy="32" r="30" fill="none" stroke="currentColor" stroke-width="2"/>
-            <polygon points="26,20 26,44 46,32" fill="currentColor"/>
-          </svg>
-          <p id="nowPlayingTitle">Selecciona un episodio para comenzar</p>
+    <section class="sinopsis-section">
+      <div class="container">
+        <div class="sinopsis-wrapper">
+          <span class="section-label">Sinopsis</span>
+          <h2 class="section-heading">Una historia de amor multiplicada por cinco</h2>
+          <p class="sinopsis-text">Futaro Uesugi es un estudiante de preparatoria excepcionalmente inteligente, pero su vida familiar es difícil. Todo cambia cuando acepta un trabajo como tutor privado de las quintillizas Nakano: Ichika, Nino, Miku, Yotsuba e Itsuki. Cinco hermanas idénticas físicamente pero con personalidades completamente opuestas. Lo que comienza como un simple empleo se transforma en un viaje de crecimiento personal, romance y autodescubrimiento que cautivó a millones de fans alrededor del mundo.</p>
+          <div class="sinopsis-stats">
+            <div class="stat-item">
+              <span class="stat-number">14</span>
+              <span class="stat-label">Volúmenes</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">5</span>
+              <span class="stat-label">Protagonistas</span>
+            </div>
+            <div class="stat-item">
+              <span class="stat-number">2017</span>
+              <span class="stat-label">Debut</span>
+            </div>
+          </div>
         </div>
-        <div class="video-badge" id="videoBadge">EP. —</div>
       </div>
+    </section>
 
-      <div class="player-controls" aria-label="Controles de reproducción">
-        <button class="ctrl-btn" id="prevEpBtn" aria-label="Capítulo anterior">
-          <svg viewBox="0 0 24 24" width="18" height="18"><polygon points="17,4 6,12 17,20" fill="currentColor"/><rect x="4" y="4" width="2" height="16" fill="currentColor"/></svg>
-        </button>
-
-        <button class="ctrl-btn" id="playBtn" aria-label="Reproducir">
-          <svg id="playIcon" viewBox="0 0 24 24" width="20" height="20"><polygon points="7,4 20,12 7,20" fill="currentColor"/></svg>
-          <svg id="pauseIcon" viewBox="0 0 24 24" width="20" height="20" style="display:none"><rect x="6" y="4" width="4" height="16" fill="currentColor"/><rect x="14" y="4" width="4" height="16" fill="currentColor"/></svg>
-        </button>
-
-        <button class="ctrl-btn" id="nextEpBtn" aria-label="Capítulo siguiente">
-          <svg viewBox="0 0 24 24" width="18" height="18"><polygon points="7,4 18,12 7,20" fill="currentColor"/><rect x="18" y="4" width="2" height="16" fill="currentColor"/></svg>
-        </button>
-
-        <span class="time-label" id="timeCurrent">00:00</span>
-        <div class="progress-track" id="progressTrack" role="slider" aria-label="Progreso del episodio" aria-valuemin="0" aria-valuemax="100" aria-valuenow="0" tabindex="0">
-          <div class="progress-fill" id="progressFill"></div>
-          <div class="progress-thumb" id="progressThumb"></div>
+    <section class="personajes-preview-section">
+      <div class="container">
+        <span class="section-label">Personajes</span>
+        <h2 class="section-heading">Las Quintillizas Nakano</h2>
+        <div class="personajes-grid">
+          <a href="pages/personajes.html#ichika" class="personaje-card" data-character="ichika">
+            <div class="card-image-wrapper">
+              <img src="assets/img/personajes/ichika/main.jpg" alt="Ichika Nakano" class="card-image" loading="lazy">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Ichika</h3>
+              <p class="card-role">La mayor responsable</p>
+            </div>
+          </a>
+          <a href="pages/personajes.html#nino" class="personaje-card" data-character="nino">
+            <div class="card-image-wrapper">
+              <img src="assets/img/personajes/nino/main.jpg" alt="Nino Nakano" class="card-image" loading="lazy">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Nino</h3>
+              <p class="card-role">Tsundere apasionada</p>
+            </div>
+          </a>
+          <a href="pages/personajes.html#miku" class="personaje-card" data-character="miku">
+            <div class="card-image-wrapper">
+              <img src="assets/img/personajes/miku/main.jpg" alt="Miku Nakano" class="card-image" loading="lazy">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Miku</h3>
+              <p class="card-role">Historiadora tímida</p>
+            </div>
+          </a>
+          <a href="pages/personajes.html#yotsuba" class="personaje-card" data-character="yotsuba">
+            <div class="card-image-wrapper">
+              <img src="assets/img/personajes/yotsuba/main.jpg" alt="Yotsuba Nakano" class="card-image" loading="lazy">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Yotsuba</h3>
+              <p class="card-role">Energía positiva</p>
+            </div>
+          </a>
+          <a href="pages/personajes.html#itsuki" class="personaje-card" data-character="itsuki">
+            <div class="card-image-wrapper">
+              <img src="assets/img/personajes/itsuki/main.jpg" alt="Itsuki Nakano" class="card-image" loading="lazy">
+              <div class="card-overlay"></div>
+            </div>
+            <div class="card-body">
+              <h3 class="card-name">Itsuki</h3>
+              <p class="card-role">La más formal</p>
+            </div>
+          </a>
         </div>
-        <span class="time-label" id="timeTotal">22:00</span>
-
-        <button class="ctrl-btn" id="muteBtn" aria-label="Silenciar">
-          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M3 9v6h4l5 5V4L7 9H3z"/></svg>
-        </button>
-        <input type="range" id="volumeSlider" class="volume-slider" min="0" max="100" value="80" aria-label="Volumen">
-
-        <button class="ctrl-btn" id="fullscreenBtn" aria-label="Pantalla completa">
-          <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 4h6v2H6v4H4V4zm10 0h6v6h-2V6h-4V4zM4 14h2v4h4v2H4v-6zm16 0h-2v4h-4v2h6v-6z"/></svg>
-        </button>
       </div>
+    </section>
 
-      <div class="synopsis-box" id="synopsisBox">
-        <h3>Sinopsis</h3>
-        <p id="synopsisText">Elige un episodio de la lista para leer su sinopsis.</p>
+    <section class="galeria-preview-section">
+      <div class="container">
+        <span class="section-label">Galería</span>
+        <h2 class="section-heading">Momentos capturados</h2>
+        <div class="galeria-preview-grid">
+          <div class="galeria-preview-item">
+            <img src="assets/img/personajes/ichika/thumb1.jpg" alt="Ichika" loading="lazy">
+          </div>
+          <div class="galeria-preview-item">
+            <img src="assets/img/personajes/nino/thumb1.jpg" alt="Nino" loading="lazy">
+          </div>
+          <div class="galeria-preview-item">
+            <img src="assets/img/personajes/miku/thumb1.jpg" alt="Miku" loading="lazy">
+          </div>
+          <div class="galeria-preview-item">
+            <img src="assets/img/personajes/yotsuba/thumb1.jpg" alt="Yotsuba" loading="lazy">
+          </div>
+        </div>
+        <div class="preview-cta">
+          <a href="pages/galeria.html" class="btn btn-secondary">Explorar galería completa</a>
+        </div>
       </div>
+    </section>
 
-      <div class="watch-next" id="watchNext">
-        <h3>Ver a continuación</h3>
-        <div class="watch-next-card" id="watchNextCard"></div>
+    <section class="musica-preview-section">
+      <div class="container">
+        <span class="section-label">Música</span>
+        <h2 class="section-heading">Banda sonora inolvidable</h2>
+        <p class="musica-preview-text">Descubre los openings, endings y la banda sonora que dieron vida a cada momento de la serie. Compuesta por talentosos artistas japoneses que capturaron la esencia de cada quintilliza.</p>
+        <div class="preview-cta">
+          <a href="pages/musica.html" class="btn btn-primary">Ver canciones</a>
+        </div>
       </div>
+    </section>
+
+    <section class="curiosidades-preview-section">
+      <div class="container">
+        <span class="section-label">Curiosidades</span>
+        <h2 class="section-heading">¿Sabías que...?</h2>
+        <div class="curiosidad-highlight">
+          <div class="curiosidad-icon">🌸</div>
+          <blockquote class="curiosidad-quote">
+            <p>El número del apartamento de las quintillizas es el 501. En japonés, "go-tou-ichi" suena muy similar a "Gotoubun", que significa "quintillizas". Un detalle brillante del autor Negi Haruba.</p>
+          </blockquote>
+        </div>
+        <div class="preview-cta">
+          <a href="pages/curiosidades.html" class="btn btn-outline">Descubrir más curiosidades</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="main-footer">
+    <div class="footer-container">
+      <div class="footer-brand">
+        <img src="assets/img/logo/logo.png" alt="Logo" class="footer-logo" width="36" height="36">
+        <span class="footer-title">The Nakano Archives</span>
+      </div>
+      <div class="footer-info">
+        <p>&copy; 2026 The Nakano Archives — Proyecto fan sin fines de lucro.</p>
+        <p class="footer-disclaimer">Gotoubun no Hanayome © Negi Haruba / Kodansha. Todos los derechos reservados a sus respectivos dueños.</p>
+      </div>
+      <div class="footer-links">
+        <a href="https://github.com" target="_blank" rel="noopener noreferrer" class="footer-social-link" aria-label="GitHub">
+          <img src="assets/img/icons/github.svg" alt="GitHub" width="22" height="22">
+        </a>
+        <a href="#" class="footer-social-link" aria-label="Twitter">
+          <img src="assets/img/icons/twitter.svg" alt="Twitter" width="22" height="22">
+        </a>
+        <a href="pages/acerca.html" class="footer-page-link">Créditos</a>
+      </div>
+      <p class="footer-version">v1.0.0 — Hecho con 🌸</p>
     </div>
-  </div>
-</section>
+  </footer>
 
-<!-- ============ MEDIA GALLERY ============ -->
-<section id="gallery" class="section gallery-section">
-  <div class="section-head">
-    <p class="eyebrow">archivo visual</p>
-    <h2>Galería Multimedia</h2>
-    <p class="section-copy">Capturas, pósters y arte conceptual. Las imágenes se cargan desde la carpeta img/galeria/.</p>
-  </div>
-
-  <div class="gallery-filters" id="galleryFilters" role="tablist" aria-label="Filtrar galería">
-    <button class="filter-chip active-chip" data-filter="all">Todo</button>
-    <button class="filter-chip" data-filter="screenshot">Capturas</button>
-    <button class="filter-chip" data-filter="poster">Pósters</button>
-    <button class="filter-chip" data-filter="concept">Arte conceptual</button>
-  </div>
-
-  <div class="gallery-grid" id="galleryGrid"></div>
-</section>
-
-<!-- ============ MUSIC ============ -->
-<section id="music" class="section music-section">
-  <div class="section-head">
-    <p class="eyebrow">banda sonora</p>
-    <h2>Sección de Música</h2>
-    <p class="section-copy">Aperturas, finales, temas de personaje y BGM oficiales, reproducidos directamente desde Spotify.</p>
-  </div>
-
-  <div class="music-layout">
-    <ul class="track-list" id="trackList" aria-label="Lista de canciones"></ul>
-
-    <div class="music-player" id="musicPlayer">
-      <h3 id="musicTrackTitle">Selecciona una canción</h3>
-      <p id="musicTrackMeta" class="music-meta">—</p>
-
-      <div class="spotify-embed-wrap" id="spotifyEmbedWrap">
-        <p class="spotify-placeholder" id="spotifyPlaceholder">Elige una pista de la lista para escucharla aquí vía Spotify.</p>
-      </div>
-
-      <p class="music-credit">Reproducido con el reproductor oficial de Spotify. Las letras completas están disponibles en Spotify o en sitios de letras autorizados.</p>
-    </div>
-  </div>
-</section>
-
-</main>
-
-<!-- ============ LIGHTBOX (gallery) ============ -->
-<div class="lightbox" id="lightbox" role="dialog" aria-modal="true" aria-label="Vista ampliada" hidden>
-  <button class="lightbox-close" id="lightboxClose" aria-label="Cerrar">&times;</button>
-  <button class="lightbox-nav lightbox-prev is-hidden" id="lightboxPrev" aria-label="Imagen anterior">
-    <svg viewBox="0 0 24 24" width="20" height="20"><polygon points="16,4 6,12 16,20" fill="currentColor"/></svg>
-  </button>
-  <div class="lightbox-content" id="lightboxContent"></div>
-  <button class="lightbox-nav lightbox-next is-hidden" id="lightboxNext" aria-label="Imagen siguiente">
-    <svg viewBox="0 0 24 24" width="20" height="20"><polygon points="8,4 18,12 8,20" fill="currentColor"/></svg>
-  </button>
-</div>
-
-<!-- ============ FOOTER ============ -->
-<footer class="site-footer">
-  <div class="footer-inner">
-    <div class="footer-brand">
-      <span class="brand-mark" aria-hidden="true">
-        <svg viewBox="0 0 40 40" width="28" height="28">
-          <circle cx="8" cy="20" r="4" fill="var(--c-ichika)"/>
-          <circle cx="16" cy="10" r="4" fill="var(--c-nino)"/>
-          <circle cx="20" cy="24" r="4.6" fill="var(--c-miku)"/>
-          <circle cx="26" cy="9" r="4" fill="var(--c-yotsuba)"/>
-          <circle cx="33" cy="21" r="4" fill="var(--c-itsuki)"/>
-        </svg>
-      </span>
-      <p>Las Quintillizas — sitio de fans</p>
-    </div>
-    <p class="footer-disclaimer">
-      Prototipo no oficial creado con fines de demostración. Todos los personajes, nombres e
-      imágenes de referencia pertenecen a sus respectivos creadores y titulares de derechos.
-      Este sitio no está afiliado ni respaldado por ellos.
-    </p>
-  </div>
-</footer>
-
-<script src="Script.js"></script>
+  <script src="assets/js/main.js" type="module"></script>
+  <script src="assets/js/navigation.js" type="module"></script>
+  <script src="assets/js/theme.js" type="module"></script>
+  <script src="assets/js/scroll.js" type="module"></script>
+  <script src="assets/js/animations.js" type="module"></script>
 </body>
 </html>

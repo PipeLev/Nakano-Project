@@ -1,0 +1,76 @@
+/* ========== PÁGINA ACERCA ========== */
+.acerca-page-section {
+  padding: var(--space-4xl) 0 var(--space-5xl);
+}
+
+.acerca-content {
+  max-width: 850px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  gap: var(--space-xl);
+}
+
+/* ========== TARJETAS ========== */
+.acerca-card {
+  background: var(--bg-surface);
+  border-radius: var(--radius-2xl);
+  padding: var(--space-2xl);
+  box-shadow: var(--shadow-sm);
+  transition: all var(--transition-base);
+  border: 1px solid transparent;
+}
+
+.acerca-card:hover {
+  box-shadow: var(--shadow-md);
+  border-color: var(--border-light);
+}
+
+.acerca-card h2 {
+  font-size: var(--text-xl);
+  font-weight: 700;
+  margin-bottom: var(--space-md);
+  color: var(--text-primary);
+}
+
+.acerca-card p {
+  font-size: var(--text-base);
+  line-height: 1.75;
+  color: var(--text-secondary);
+  margin-bottom: var(--space-sm);
+}
+
+.acerca-card p:last-child {
+  margin-bottom: 0;
+}
+
+.acerca-card p strong {
+  color: var(--text-primary);
+  font-weight: 600;
+}
+
+/* ========== DISCLAIMER ========== */
+.disclaimer-card {
+  background: var(--color-accent-soft);
+  border: 1px solid var(--color-primary-lighter);
+}
+
+.disclaimer-card h2 {
+  color: var(--color-primary-darker);
+}
+
+.disclaimer-card p {
+  font-size: var(--text-sm);
+  color: var(--text-tertiary);
+}
+
+/* ========== RESPONSIVE ========== */
+@media (max-width: 600px) {
+  .acerca-card {
+    padding: var(--space-lg);
+  }
+
+  .acerca-card h2 {
+    font-size: var(--text-lg);
+  }
+}
