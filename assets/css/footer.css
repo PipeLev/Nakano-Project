@@ -71,11 +71,11 @@
   opacity: 0.6;
 }
 
-/* ========== DERECHA: ENLACES ========== */
+/* ========== DERECHA: ENLACES SOCIALES ========== */
 .footer-links {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 16px;
   flex-shrink: 0;
 }
 
@@ -83,25 +83,28 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  width: 38px;
-  height: 38px;
+  width: 42px;
+  height: 42px;
   border-radius: 50%;
-  background: rgba(255, 255, 255, 0.08);
+  background: rgba(255, 255, 255, 0.1);
   transition: transform 0.3s cubic-bezier(0.4, 0, 0.2, 1), background 0.3s ease;
+  flex-shrink: 0;
 }
 
 .footer-social-link:hover {
-  background: rgba(255, 255, 255, 0.16);
-  transform: scale(1.05);
+  background: rgba(255, 255, 255, 0.2);
+  transform: scale(1.08);
 }
 
-.footer-social-link img {
-  opacity: 0.85;
-  transition: opacity 0.3s ease;
+.footer-social-link svg {
+  width: 20px;
+  height: 20px;
+  fill: rgba(255, 255, 255, 0.85);
+  transition: fill 0.3s ease;
 }
 
-.footer-social-link:hover img {
-  opacity: 1;
+.footer-social-link:hover svg {
+  fill: #ffffff;
 }
 
 .footer-page-link {
@@ -109,6 +112,7 @@
   font-weight: 500;
   color: var(--text-on-dark-secondary);
   transition: color 0.3s ease, transform 0.3s ease;
+  white-space: nowrap;
 }
 
 .footer-page-link:hover {
