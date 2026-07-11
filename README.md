@@ -1,51 +1,145 @@
+# 🌸 The Nakano Archives
+
 <p align="center">
-  <img src="https://github.com/PipeLev/Nakano-Project/blob/ca7ef01f26ff4848029923692a1c3175e6c4898b/assets/banner.png" alt="Nakano Project Banner" width="100%">
+  <img src="assets/img/logo/logo.png" alt="The Nakano Archives Logo" width="300">
 </p>
 
-# 🌸 The Nakano Project
+<p align="center">
+  <strong>El archivo definitivo dedicado a las quintillizas de Gotoubun no Hanayome.</strong>
+</p>
 
-Bienvenido a **The Nakano project**, una plataforma digital inmersiva diseñada para los fans de *Gotoubun no Hanayome* (Las Quintillizas). Este proyecto es una web de una sola página (SPA) que centraliza la experiencia del fan en un entorno estéticamente cuidado y altamente interactivo.
-
----
-
-## 🎨 Diseño y Filosofía
-El sitio web adopta una estética **"Soft-Modern"** inspirada en la paleta de colores distintiva de las hermanas Nakano.
-
-* **Glassmorphism**: Uso de contenedores semi-transparentes y desenfocados para una experiencia visual premium.
-* **Diseño Responsivo**: Adaptación total a dispositivos móviles, tablets y escritorio.
-* **Paleta de Colores**: Integración de los colores icónicos de Ichika, Nino, Miku, Yotsuba e Itsuki como acentos dinámicos.
+<p align="center">
+Proyecto fan creado sin fines de lucro.
+</p>
 
 ---
 
-## 🚀 Características Principales
+## 📖 Descripción
 
-### 📖 Sección de Personajes
-* **Perfiles Interactivos**: Fichas detalladas con biografía, personalidad y datos curiosos.
-* **Galería Multimedia**: Visualización inmersiva de arte y capturas.
-* **Voice Actors**: Fichas técnicas dedicadas al talento detrás de las voces.
+**The Nakano Archives** es una página web dedicada al universo de **Gotoubun no Hanayome (The Quintessential Quintuplets)**.
 
-### 📺 Reproductor de Episodios
-* **Interfaz Dinámica**: Un reproductor nativo HTML5 optimizado para una navegación fluida entre temporadas.
-* **Selector de Idioma**: Cambio en tiempo real entre audio original (japonés) y versiones localizadas (latino).
-* **Experiencia de Usuario**: Controles personalizados que garantizan una maratón sin distracciones.
-
-### 🎵 Biblioteca Musical
-* **Archivo de Audio**: Centralización de Openings, Endings y BGM.
-* **Integración Spotify**: Player oficial integrado para disfrutar de la banda sonora con calidad profesional.
+El proyecto reúne información de las cinco hermanas Nakano, una galería de imágenes, reproductor de música, fondos de pantalla y otros contenidos para los fanáticos de la serie.
 
 ---
 
-## 🛠 Tecnologías Utilizadas
+## ✨ Características
 
-* **Frontend**: HTML5, CSS3 (Modern Flexbox/Grid) y Vanilla JavaScript (ES6+).
-* **Tipografía**: Google Fonts (*Fraunces*, *Zen Maru Gothic*, *JetBrains Mono*).
-* **Arquitectura**: Código limpio y modular para facilitar el mantenimiento y escalabilidad.
+- 🌸 Información completa de las cinco hermanas Nakano.
+- 🖼️ Galería organizada por personaje.
+- 🎵 Reproductor de música integrado.
+- 📱 Diseño responsive.
+- 🎨 Interfaz inspirada en la estética del anime.
+- ❤️ Animaciones suaves y efectos visuales.
+- 🌙 Navegación intuitiva.
+- 🖼️ Fondos de pantalla descargables.
+- 📚 Proyecto organizado por módulos.
 
 ---
 
-## 💻 Sitio Web
+## 👭 Personajes
+
+- 💛 Ichika Nakano
+- 💜 Nino Nakano
+- 💙 Miku Nakano
+- 💚 Yotsuba Nakano
+- ❤️ Itsuki Nakano
+
+---
+
+## 📂 Estructura del proyecto
+
+```text
+Nakano Project/
+│
+├── assets/
+│   ├── img/
+│   │   ├── banner/
+│   │   ├── gallery/
+│   │   ├── icons/
+│   │   ├── logo/
+│   │   └── personajes/
+│   │
+│   ├── css/
+│   └── js/
+│
+├── pages/
+│
+├── index.html
+├── favicon.ico
+├── site.webmanifest
+└── README.md
+```
+
+---
+
+## 🌐 Sitio Web
 https://nakano-project.vercel.app/
 ---
 
-## ⚖️ Descargo de Responsabilidad
-*Las Quintillizas (Gotoubun no Hanayome)* es propiedad intelectual de sus respectivos autores. Este sitio web es un prototipo **no oficial** creado con fines educativos y de demostración. No se distribuye material con derechos de autor protegidos en el servidor, utilizando enlaces a plataformas oficiales para la reproducción de contenido.
+## 🛠️ Tecnologías utilizadas
+
+- HTML5
+- CSS3
+- JavaScript (Vanilla)
+- SVG
+- Web Manifest
+- Responsive Design
+
+---
+
+## 🎵 Contenido
+
+El sitio incluye:
+
+- Información de personajes
+- Galería
+- Música
+- Fondos
+- Créditos
+- Enlaces sociales
+
+---
+
+## 🌐 Redes
+
+- YouTube: https://www.youtube.com/@pipelev
+- Twitch: https://www.twitch.tv/pipelev
+
+---
+
+## 📜 Licencia
+
+Este proyecto es un **fan project** creado únicamente con fines educativos y de entretenimiento.
+
+**Gotoubun no Hanayome** y todos sus personajes pertenecen a:
+
+- Negi Haruba
+- Kodansha
+
+Todo el material utilizado pertenece a sus respectivos propietarios.
+
+---
+
+## ❤️ Créditos
+
+Desarrollado por **PipeLev**
+
+Agradecimiento especial a toda la comunidad de **Gotoubun no Hanayome** por mantener vivo el cariño hacia la obra.
+
+---
+
+## ⭐ Estado del proyecto
+
+🟢 En desarrollo activo
+
+Versión actual:
+
+```text
+v1.0.0
+```
+
+---
+
+<p align="center">
+🌸 Hecho con cariño para la comunidad de Gotoubun no Hanayome 🌸
+</p>
