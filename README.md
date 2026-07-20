@@ -1,231 +1,51 @@
-# 🌸 The Nakano Archives
+# 🌸 The Nakano Archives v1.2.0 — Harmony Update
 
-> El archivo definitivo dedicado a **Gotoubun no Hanayome (The Quintessential Quintuplets)**.
+![Version](https://img.shields.io/badge/version-1.2.0-f2a0b5)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?logo=javascript&logoColor=black)
+![License](https://img.shields.io/badge/license-Fan%20Project-ff69b4)
 
-![Version](https://img.shields.io/badge/version-1.1.0-ff8fb1?style=for-the-badge)
-![Status](https://img.shields.io/badge/status-Stable-success?style=for-the-badge)
-![License](https://img.shields.io/badge/license-MIT-blue?style=for-the-badge)
-![Made with](https://img.shields.io/badge/Made%20with-HTML%20%7C%20CSS%20%7C%20JavaScript-orange?style=for-the-badge)
-
----
-
-## 📖 Descripción
-
-**The Nakano Archives** es un proyecto fan creado para reunir información, imágenes, música y curiosidades sobre **Gotoubun no Hanayome**, ofreciendo una experiencia moderna, rápida y completamente responsive.
-
-El proyecto está desarrollado únicamente con tecnologías web nativas, sin frameworks ni bases de datos.
+**El archivo definitivo sobre Gotoubun no Hanayome.**  
+Ahora más rápido, más limpio y más elegante.
 
 ---
 
-# ✨ Novedades de la versión 1.1.0
+## ✨ Novedades en v1.2.0
 
-La versión **1.1.0** representa la primera gran actualización del proyecto.
-
-### 🌙 Nuevo sistema de Dark Mode
-
-- Cambio entre modo claro y oscuro.
-- Preferencia guardada automáticamente.
-- Compatible con todas las páginas.
-- Transiciones suaves.
-
----
-
-### 🧭 Mejoras en la navegación
-
-- Header optimizado.
-- Mejor responsive.
-- Menú más limpio.
-- Mejor contraste.
-- Correcciones visuales.
+- **Reestructuración total:** solo 3 archivos CSS y 3 archivos JS.
+- **Dark Mode 2.0:** unificado, sin parpadeos y con persistencia global.
+- **Galería 2.0:** lazy loading, zoom mejorado y navegación por teclado.
+- **Búsqueda inteligente:** ignora mayúsculas y acentos.
+- **Favoritos rediseñados:** con contador y limpieza integrada.
+- **Rendimiento optimizado:** 60 FPS en animaciones y menos reflows.
+- **Código limpio:** modular, reutilizable y 100% vanilla.
 
 ---
 
-### 🖼 Mejoras en Galería
+## ⌨️ Atajos
 
-- Corrección de carga de imágenes.
-- Mejor rendimiento.
-- Lazy Loading.
-- Optimización visual.
-
----
-
-### 👥 Mejoras en Personajes
-
-- Corrección de imágenes.
-- Mejor presentación.
-- Información reorganizada.
-- Mejor diseño responsive.
+| Tecla        | Acción                  |
+|--------------|-------------------------|
+| Ctrl + K     | Buscador global         |
+| ESC          | Cerrar modal / lightbox |
+| ← →          | Navegar imágenes        |
+| + / -        | Zoom en lightbox        |
 
 ---
 
-### ⚡ Mejoras generales
+## 🛠 Tecnologías
 
-- Mejor rendimiento.
-- Optimización del CSS.
-- Código más limpio.
-- Mejor organización de archivos.
-- Correcciones de errores.
+HTML5 · CSS3 · JavaScript ES6+  
+Cero dependencias. Cero frameworks.
 
 ---
 
-# 📂 Estructura del proyecto
+## ⚖️ Licencia
 
-```text
-The-Nakano-Archives/
-│
-├── assets/
-│   ├── css/
-│   ├── img/
-│   │   ├── banner/
-│   │   ├── gallery/
-│   │   ├── icons/
-│   │   ├── logo/
-│   │   ├── music/
-│   │   └── personajes/
-│   └── js/
-│
-├── pages/
-│   ├── personajes.html
-│   ├── galeria.html
-│   ├── musica.html
-│   ├── curiosidades.html
-│   └── acerca.html
-│
-├── favicon.ico
-├── site.webmanifest
-├── LICENSE
-├── README.md
-└── index.html
-```
+Proyecto fan sin fines de lucro.  
+Gotoubun no Hanayome © Negi Haruba / Kodansha.
 
 ---
 
-# 🚀 Tecnologías
-
-- HTML5
-- CSS3
-- JavaScript (ES6)
-- Responsive Design
-- CSS Variables
-- LocalStorage
-
----
-
-# 📱 Características
-
-- ✅ Responsive
-- ✅ Dark Mode
-- ✅ Animaciones suaves
-- ✅ Diseño moderno
-- ✅ Optimizado para móviles
-- ✅ Favicon personalizado
-- ✅ Navegación fluida
-- ✅ Sin dependencias externas
-
----
-
-# 📸 Contenido
-
-Actualmente el sitio incluye:
-
-- 🌸 Inicio
-- 👥 Personajes
-- 🖼 Galería
-- 🎵 Música
-- 💡 Curiosidades
-- ℹ️ Acerca
-
----
-
-# 🌙 Dark Mode
-
-El modo oscuro puede activarse desde el botón ubicado en el encabezado.
-
-Características:
-
-- Guarda la preferencia automáticamente.
-- Compatible con todo el sitio.
-- Cambios instantáneos.
-- Sin recargar la página.
-
----
-
-# 📄 Licencia
-
-Este proyecto está distribuido bajo la licencia **MIT**.
-
-Consulta el archivo **LICENSE** para más información.
-
----
-
-# ⚠️ Aviso
-
-Este proyecto es un **fan project** sin fines de lucro.
-
-**Gotoubun no Hanayome** y todos sus personajes pertenecen a:
-
-- Negi Haruba
-- Kodansha
-- Bibury Animation Studios
-- TBS
-
-Este sitio no pretende infringir ningún derecho de autor.
-
----
-
-# 👨‍💻 Desarrollador
-
-**PipeLev**
-
-GitHub
-
-https://github.com/PipeLev
-
-YouTube
-
-https://www.youtube.com/@pipelev
-
-Twitch
-
-https://www.twitch.tv/pipelev
-
----
-
-# 📌 Estado del proyecto
-
-Versión actual
-
-```text
-v1.1.0
-```
-
-Estado
-
-```text
-Stable Release
-```
-
-Última actualización
-
-```text
-Julio 2026
-```
-
----
-
-## 🌸 Changelog v1.1.0
-
-- ✨ Nuevo Dark Mode.
-- 🎨 Nuevo logo oficial.
-- 🖼 Favicons actualizados.
-- 🎵 Nueva sección Música.
-- 🧭 Mejor navegación.
-- 🦶 Footer renovado.
-- 📸 Correcciones en Galería.
-- 👥 Mejoras en Personajes.
-- ⚡ Optimización general.
-- 🐞 Corrección de múltiples errores.
-
----
-
-**The Nakano Archives © 2026 — Proyecto fan hecho con 🌸 para la comunidad de Gotoubun no Hanayome.**
+**v1.2.0** — Hecho con 🌸 por fans, para fans.
